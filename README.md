@@ -4,24 +4,6 @@ Welcome to the **Blockchain & Web3 Bootcamp NFT Project**!
 
 This repo contains the **starter template** for the *NFT Attendance Proof Minter dApp* that you'll build during the 2-day BootCamp. You'll write smart contracts, integrate frontend, and finally mint your own NFT on the **Polygon**.
 
----
-
-## 📚 Bootcamp Agenda (Recap)
-
-**🗓️ Day 1 – Blockchain & Smart Contracts (Rohit Gupta)**
-- What is Blockchain & Web3
-- Smart Contracts in Solidity
-- Deploy your NFT contract to Polygon 
-- Tools: MetaMask, Remix, PolygonScan, OpenSea 
-
-**🗓️ Day 2 – Frontend + Integration (Shubhankar Banerjee)**
-- HTML, CSS, JS refresher
-- Interacting with blockchain via frontend
-- Build & run NFT minter dApp
-- Host with Node.js + Express.js
-
----
-
 ## 🎯 Project Goal
 
 > Mint a personalized NFT as proof of your BootCamp attendance, using your own image and metadata!
@@ -75,14 +57,6 @@ npx hardhat compile
 npx hardhat run scripts/deploy.js --network [network-name]
 ```
 
----
-
-## 🧠 Your Tasks
-
-### 📄 Smart Contract (Solidity)
-
-- [ ] Complete the `mintNFT()` function in `contracts/NFTAttendance.sol`
-- [ ] Deploy the contract to **Polygon**
 
 ### 🌐 Frontend (HTML/JS)
 
@@ -104,26 +78,9 @@ Follow these steps to create your NFT's metadata and upload it to IPFS via [Pina
 - Upload your NFT image (e.g., `my-nft.png`)
 - Copy the resulting **CID** (Content Identifier)
 
-### 2. Create Metadata JSON
-Create a `metadata.json` file in your project (or generate it dynamically in your frontend), with a structure like:
 
-```json
-{
-  "name": "Bootcamp Attendance NFT",
-  "description": "This NFT certifies participation in the SHARP Blockchain Bootcamp",
-  "image": "ipfs://<IMAGE_CID>",
-  "attributes": [
-    {
-      "trait_type": "Attendee",
-      "value": "Your Name"
-    },
-    {
-      "trait_type": "Batch",
-      "value": "April 2025"
-    }
-  ]
-}
-```
+
+
 
 ## 🌐 Tools & Links
 
@@ -145,23 +102,9 @@ Create a `metadata.json` file in your project (or generate it dynamically in you
 
 ## 👨‍🎓 Completion Badge
 
-Each NFT you mint is proof of:
 
-✅ Your participation in this BootCamp  
-✅ Your ability to write smart contracts  
-✅ Your confidence with full-stack Web3 development 🚀
 
----
 
-## ✨ Credits
-
-**Organized by:** 🎯 SHARP Innovation Foundation
-
-**BootCamp Trainers:**
-
-- 👨‍🏫 **Rohit Gupta** – Smart Contracts  
-- 👨‍💻 **Shubhankar Banerjee** – Frontend + Integration
-
----
 
 > 🚀 Happy Building, and welcome to Web3!
+
