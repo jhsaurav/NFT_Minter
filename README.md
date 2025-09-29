@@ -21,43 +21,6 @@ This repo contains the **starter template** for the *NFT Attendance Proof Minter
 
 ---
 
-## ⚙️ Setup Instructions
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/ShubhankarBanerjee87/BlockchainBootcamp2025.git
-cd BlockchainBootcamp2025
-```
-
-### 2. Install Dependencies
-
-```bash
-npm install 
-```
-
-### 3. Configure Environment
-
-```bash
-PRIVATE_KEY=your_wallet_private_key
-RPC_URL=https://polygon-mainnet.g.alchemy.com/v2/API-KEY
-```
-
-🔐 Important: Do not share your .env file publicly or commit it to version control.
-
-### 4. Compile the Contract
-
-```bash
-npx hardhat compile
-```
-
-### 5. Deploy
-
-```bash
-npx hardhat run scripts/deploy.js --network [network-name]
-```
-
-
 ### 🌐 Frontend (HTML/JS)
 
 - [ ] Connect MetaMask to the frontend
@@ -93,18 +56,8 @@ Follow these steps to create your NFT's metadata and upload it to IPFS via [Pina
 
 ---
 
-## 📸 Sample Output
-
-> Once minted successfully, your NFT will appear on OpenSea  like this:
-> `https://opensea.io/assets//<your_contract_address>/<token_id>`
-
----
-
-## 👨‍🎓 Completion Badge
-
-
-
 
 
 > 🚀 Happy Building, and welcome to Web3!
+
 
